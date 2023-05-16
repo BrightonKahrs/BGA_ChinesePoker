@@ -31,25 +31,25 @@
         <div class="playertablename" style="color:#{PLAYER_COLOR}">{PLAYER_NAME}</div>
 
         <div id="top-row" class="rows">
-            <div class="playertablecard" id="playertablecard_T1"></div>
-            <div class="playertablecard" id="playertablecard_T2"></div>
-            <div class="playertablecard" id="playertablecard_T3"></div>
+            <div class="playertablecard" id="playertablecard_T1_{PLAYER_ID}"></div>
+            <div class="playertablecard" id="playertablecard_T2_{PLAYER_ID}"></div>
+            <div class="playertablecard" id="playertablecard_T3_{PLAYER_ID}"></div>
         </div>
 
         <div id="middle-row" class="rows">
-            <div class="playertablecard" id="playertablecard_M1"></div>
-            <div class="playertablecard" id="playertablecard_M2"></div>
-            <div class="playertablecard" id="playertablecard_M3"></div>
-            <div class="playertablecard" id="playertablecard_M4"></div>
-            <div class="playertablecard" id="playertablecard_M5"></div>
+            <div class="playertablecard" id="playertablecard_M1_{PLAYER_ID}"></div>
+            <div class="playertablecard" id="playertablecard_M2_{PLAYER_ID}"></div>
+            <div class="playertablecard" id="playertablecard_M3_{PLAYER_ID}"></div>
+            <div class="playertablecard" id="playertablecard_M4_{PLAYER_ID}"></div>
+            <div class="playertablecard" id="playertablecard_M5_{PLAYER_ID}"></div>
         </div>
 
         <div id="bottom-row" class="rows">
-            <div class="playertablecard" id="playertablecard_M1"></div>
-            <div class="playertablecard" id="playertablecard_M2"></div>
-            <div class="playertablecard" id="playertablecard_M3"></div>
-            <div class="playertablecard" id="playertablecard_M4"></div>
-            <div class="playertablecard" id="playertablecard_M5"></div>
+            <div class="playertablecard" id="playertablecard_M1_{PLAYER_ID}"></div>
+            <div class="playertablecard" id="playertablecard_M2_{PLAYER_ID}"></div>
+            <div class="playertablecard" id="playertablecard_M3_{PLAYER_ID}"></div>
+            <div class="playertablecard" id="playertablecard_M4_{PLAYER_ID}"></div>
+            <div class="playertablecard" id="playertablecard_M5_{PLAYER_ID}"></div>
         </div>
         
     </div>
