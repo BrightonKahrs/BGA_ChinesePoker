@@ -457,7 +457,7 @@ class chinesepokerdezcraft extends Table
         $players = self::loadPlayersBasicInfos();
         foreach( $players as $player_id => $player )
         {
-            $cards = $this->cards->pickCards( 3, 'deck', $player_id );
+            $cards = $this->cards->pickCards( 5, 'deck', $player_id );
             
             // Notify player about his cards
             self::notifyPlayer( $player_id, 'newHand', '', array( 
