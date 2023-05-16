@@ -25,18 +25,33 @@
 
 <div id="playertables">
 
-    <div class="playertable playertable_D">
-        <div id="deck">
-        </div>
-    </div>
-
     <!-- BEGIN player -->
     <div class="playertable whiteblock playertable_{DIR}">
-        <div class="playertablename" style="color:#{PLAYER_COLOR}">
-            {PLAYER_NAME}
+
+        <div class="playertablename" style="color:#{PLAYER_COLOR}">{PLAYER_NAME}</div>
+
+        <div id="top-row" class="rows">
+            <div class="playertablecard" id="playertablecard_T1"></div>
+            <div class="playertablecard" id="playertablecard_T2"></div>
+            <div class="playertablecard" id="playertablecard_T3"></div>
         </div>
-        <div class="playertablecard" id="playertablecard_{PLAYER_ID}">
+
+        <div id="middle-row" class="rows">
+            <div class="playertablecard" id="playertablecard_M1"></div>
+            <div class="playertablecard" id="playertablecard_M2"></div>
+            <div class="playertablecard" id="playertablecard_M3"></div>
+            <div class="playertablecard" id="playertablecard_M4"></div>
+            <div class="playertablecard" id="playertablecard_M5"></div>
         </div>
+
+        <div id="bottom-row" class="rows">
+            <div class="playertablecard" id="playertablecard_M1"></div>
+            <div class="playertablecard" id="playertablecard_M2"></div>
+            <div class="playertablecard" id="playertablecard_M3"></div>
+            <div class="playertablecard" id="playertablecard_M4"></div>
+            <div class="playertablecard" id="playertablecard_M5"></div>
+        </div>
+        
     </div>
     <!-- END player -->
 
