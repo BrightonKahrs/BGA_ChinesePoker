@@ -65,7 +65,7 @@ function (dojo, declare) {
             // Player hand
             this.playerHand = new ebg.stock();
             this.playerHand.create( this, $('myhand'), this.cardwidth, this.cardheight );
-            this.playerHand.image_items_per_row = 13;
+            this.playerHand.image_items_per_row = 3;
             dojo.connect( this.playerHand, 'onChangeSelection', this, 'onPlayerHandSelectionChanged' );
             
             // Create cards types:
