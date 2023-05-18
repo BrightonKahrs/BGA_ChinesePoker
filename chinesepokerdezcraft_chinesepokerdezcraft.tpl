@@ -30,27 +30,9 @@
 
         <div class="playertablename" style="color:#{PLAYER_COLOR}">{PLAYER_NAME}</div>
 
-        <div id="top-row" class="rows">
-            <div class="playertablecard" id="playertablecard_T1_{PLAYER_ID}"></div>
-            <div class="playertablecard" id="playertablecard_T2_{PLAYER_ID}"></div>
-            <div class="playertablecard" id="playertablecard_T3_{PLAYER_ID}"></div>
-        </div>
-
-        <div id="middle-row" class="rows">
-            <div class="playertablecard" id="playertablecard_M1_{PLAYER_ID}"></div>
-            <div class="playertablecard" id="playertablecard_M2_{PLAYER_ID}"></div>
-            <div class="playertablecard" id="playertablecard_M3_{PLAYER_ID}"></div>
-            <div class="playertablecard" id="playertablecard_M4_{PLAYER_ID}"></div>
-            <div class="playertablecard" id="playertablecard_M5_{PLAYER_ID}"></div>
-        </div>
-
-        <div id="bottom-row" class="rows">
-            <div class="playertablecard" id="playertablecard_M1_{PLAYER_ID}"></div>
-            <div class="playertablecard" id="playertablecard_M2_{PLAYER_ID}"></div>
-            <div class="playertablecard" id="playertablecard_M3_{PLAYER_ID}"></div>
-            <div class="playertablecard" id="playertablecard_M4_{PLAYER_ID}"></div>
-            <div class="playertablecard" id="playertablecard_M5_{PLAYER_ID}"></div>
-        </div>
+        <div id="top_row_{DIR}" class="top_row rows"></div>
+        <div id="middle_row_{DIR}" class="middle_row rows"></div>
+        <div id="bottom_row_{DIR}" class="bottom_row rows"></div>
         
     </div>
     <!-- END player -->

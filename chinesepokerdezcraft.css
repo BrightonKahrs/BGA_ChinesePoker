@@ -70,7 +70,7 @@
     margin-left: -25px;
     width: 72px;
     height: 96px;
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: rgb(255,  255, 255, 0.5);
     border: 1px solid lightgray;
     border-radius: 6px;
     box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.5);
@@ -87,9 +87,4 @@
 
 .rows {
     height: 100px;
-    margin-left: 50px;
-}
-
-#top-row{
-    margin-left: 100px;
 }
