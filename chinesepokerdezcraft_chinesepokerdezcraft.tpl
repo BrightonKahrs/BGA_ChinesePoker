@@ -39,12 +39,19 @@
 
 </div>
 
-<div id="myhand_wrap" class="whiteblock">
-    <h3>{MY_HAND}</h3>
-    <div id="myhand">
-    </div>
-</div>
+<div id="player_mat">
 
+    <div id="deck_holder">
+        <div id="deck"></div>
+    </div>
+
+    <div id="myhand_wrap" class="whiteblock">
+        <h3>{MY_HAND}</h3>
+        <div id="myhand">
+        </div>
+    </div>
+
+</div>
 
 
 
