@@ -49,18 +49,23 @@
 #playertables {
     display: flex;
     flex-wrap: wrap;
+    justify-content:space-evenly;
 }
 
 .playertablename {
     font-weight: bold;
+    justify-self: center;
+}
 
+#game_play_area {
+    display: grid;
 }
 
 .playertable{
-    position: relative;
+    display: grid;
     min-width: 330px;
     min-height: 330px;
-    margin-left: 15px;
+    margin: 15px;
 }
 
 .playertablecard {
@@ -70,7 +75,7 @@
     margin-left: -25px;
     width: 72px;
     height: 96px;
-    background-color: rgb(255, 255, 255, 0.5);
+    background-color: rgb(255,  255, 255, 0.5);
     border: 1px solid lightgray;
     border-radius: 6px;
     box-shadow: -2px 0px 4px rgba(0, 0, 0, 0.5);
@@ -87,9 +92,33 @@
 
 .rows {
     height: 100px;
-    margin-left: 50px;
 }
 
-#top-row{
-    margin-left: 100px;
+#player_mat {
+    display: flex;
+    align-items: center;
 }
+
+#deck_holder {
+    flex: 1;
+    display: grid;
+    justify-content: center;
+}
+
+#deck {
+    width:72px;
+    height:96px;
+    background-image: url('img/card_back.png');
+}
+
+#myhand_wrap {
+    display: grid;
+    flex: 2;
+    margin: 15px;
+}
+
+#myhand_wrap h3{
+    justify-self: center;
+}
+
+

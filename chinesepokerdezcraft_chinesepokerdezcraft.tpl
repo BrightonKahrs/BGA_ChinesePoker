@@ -30,39 +30,28 @@
 
         <div class="playertablename" style="color:#{PLAYER_COLOR}">{PLAYER_NAME}</div>
 
-        <div id="top-row" class="rows">
-            <div class="playertablecard" id="playertablecard_T1"></div>
-            <div class="playertablecard" id="playertablecard_T2"></div>
-            <div class="playertablecard" id="playertablecard_T3"></div>
-        </div>
-
-        <div id="middle-row" class="rows">
-            <div class="playertablecard" id="playertablecard_M1"></div>
-            <div class="playertablecard" id="playertablecard_M2"></div>
-            <div class="playertablecard" id="playertablecard_M3"></div>
-            <div class="playertablecard" id="playertablecard_M4"></div>
-            <div class="playertablecard" id="playertablecard_M5"></div>
-        </div>
-
-        <div id="bottom-row" class="rows">
-            <div class="playertablecard" id="playertablecard_M1"></div>
-            <div class="playertablecard" id="playertablecard_M2"></div>
-            <div class="playertablecard" id="playertablecard_M3"></div>
-            <div class="playertablecard" id="playertablecard_M4"></div>
-            <div class="playertablecard" id="playertablecard_M5"></div>
-        </div>
+        <div id="top_row_{DIR}" class="top_row rows"></div>
+        <div id="middle_row_{DIR}" class="middle_row rows"></div>
+        <div id="bottom_row_{DIR}" class="bottom_row rows"></div>
         
     </div>
     <!-- END player -->
 
 </div>
 
-<div id="myhand_wrap" class="whiteblock">
-    <h3>{MY_HAND}</h3>
-    <div id="myhand">
-    </div>
-</div>
+<div id="player_mat">
 
+    <div id="deck_holder">
+        <div id="deck"></div>
+    </div>
+
+    <div id="myhand_wrap" class="whiteblock">
+        <h3>{MY_HAND}</h3>
+        <div id="myhand">
+        </div>
+    </div>
+
+</div>
 
 
 
